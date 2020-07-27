@@ -13,12 +13,12 @@ def message():
             data = filename.readlines()
             info_fruit.append(("name: "+data[0].strip(),"weight: "+data[1].strip()))
 
-    paragraph = ""
+    paragraph = "" #For generating the paragraph of the PDF
     for info in info_fruit:
         paragraph+= info[0]+ "<br/>" + info[1] + "<br/>" + "<br/>"
     return paragraph
 if __name__ == "__main__":
-    username = "student-01-03addc9c9fb4"
+    username = "student-01-03addc9c9fb4" #Replace here with the username of the receiver
     filename = "/tmp/processed.pdf"
     today = date.today().strftime("%B %d, %Y")
     title = "Processed Update on "+today
