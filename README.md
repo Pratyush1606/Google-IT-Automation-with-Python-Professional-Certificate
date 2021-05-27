@@ -2,7 +2,7 @@
 
 <br>
 
-![img](google-it-automation.jpg)
+![img](Coursera_MTP3UV8BB2LM.png)
 
 * This repository written for reference and self-documentation purpose
 * Feel free to contribute!
